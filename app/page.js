@@ -20,8 +20,8 @@ export default function Chatbot() {
     setMessages((prev) => [...prev, userMessage]);
 
     try {
-      const { data } = await axios.post("http://localhost:5000/chat", {
-      // const { data } = await axios.post("https://chat.muntasir3301.xyz/chat", {
+      // const { data } = await axios.post("http://localhost:5000/chat", {
+      const { data } = await axios.post("https://chat.muntasir3301.xyz/chat", {
         input,
       });
 
