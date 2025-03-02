@@ -14,6 +14,7 @@ export default function Chatbot() {
     if (!input.trim()) return;
     setInput("");
 
+    // johfa 
 
     // Append user message
     const userMessage = { role: "user", text: input };
